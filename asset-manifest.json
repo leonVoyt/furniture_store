@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/furniture_store/static/css/main.855e9364.css",
+    "main.js": "/furniture_store/static/js/main.9f7a1ed9.js",
+    "static/media/background.png": "/furniture_store/static/media/background.01f395eef86519f02d20.png",
+    "static/media/2563956 1 (1).png": "/furniture_store/static/media/2563956 1 (1).5a984d1c7b5418666be2.png",
+    "static/media/1528 1.png": "/furniture_store/static/media/1528 1.27855fbc3bce566efe41.png",
+    "static/media/Rectangle 48.png": "/furniture_store/static/media/Rectangle 48.821454dc27f380c080bf.png",
+    "static/media/Rectangle 24.png": "/furniture_store/static/media/Rectangle 24.d4155086f34295d96a83.png",
+    "static/media/Rectangle 25.png": "/furniture_store/static/media/Rectangle 25.bafd9cf18bd64b9fafc9.png",
+    "static/media/Images (2).png": "/furniture_store/static/media/Images (2).386f4dd3b920d50b22da.png",
+    "static/media/Gilroy-Medium.eot": "/furniture_store/static/media/Gilroy-Medium.b84941b7bdcce7cbba6d.eot",
+    "static/media/Gilroy-Medium.ttf": "/furniture_store/static/media/Gilroy-Medium.f9f832b0ed3f1ab138c9.ttf",
+    "static/media/Gilroy-SemiBold.eot": "/furniture_store/static/media/Gilroy-SemiBold.8134b9ab378c54626928.eot",
+    "static/media/Gilroy-Regular.eot": "/furniture_store/static/media/Gilroy-Regular.1d051d9d4215c09cbcaa.eot",
+    "static/media/Gilroy-Bold.eot": "/furniture_store/static/media/Gilroy-Bold.a732fed1bc6140852a0b.eot",
+    "static/media/Gilroy-Regular.ttf": "/furniture_store/static/media/Gilroy-Regular.b91b0127c56a8e5f9e83.ttf",
+    "static/media/Gilroy-SemiBold.ttf": "/furniture_store/static/media/Gilroy-SemiBold.6780292641f883b3dad3.ttf",
+    "static/media/Gilroy-Bold.ttf": "/furniture_store/static/media/Gilroy-Bold.b900325e44ec0c673e88.ttf",
+    "static/media/image 2 (1).png": "/furniture_store/static/media/image 2 (1).7b50f49793c284f013a5.png",
+    "static/media/image 4.png": "/furniture_store/static/media/image 4.e3d11c3e09b8f5e85275.png",
+    "static/media/image 3 (2).png": "/furniture_store/static/media/image 3 (2).d93f1155c8110b7ed0c7.png",
+    "static/media/Images (1).png": "/furniture_store/static/media/Images (1).85e0870c5353417a547f.png",
+    "static/media/image 1.png": "/furniture_store/static/media/image 1.3470388b6754d9d6bf7e.png",
+    "static/media/Images.png": "/furniture_store/static/media/Images.83fc071d1809f5d01e27.png",
+    "static/media/Gilroy-Medium.woff": "/furniture_store/static/media/Gilroy-Medium.2bc7f5d7ea77ee1bddb3.woff",
+    "static/media/Gilroy-Bold.woff": "/furniture_store/static/media/Gilroy-Bold.5fb38b9fa452b5814397.woff",
+    "static/media/Gilroy-SemiBold.woff": "/furniture_store/static/media/Gilroy-SemiBold.e38937dbf8202c144802.woff",
+    "static/media/Gilroy-Regular.woff": "/furniture_store/static/media/Gilroy-Regular.31d54a4b841c0e438f13.woff",
+    "static/media/image 8.png": "/furniture_store/static/media/image 8.63d41b27e92d5c82ea7a.png",
+    "index.html": "/furniture_store/index.html",
+    "main.855e9364.css.map": "/furniture_store/static/css/main.855e9364.css.map",
+    "main.9f7a1ed9.js.map": "/furniture_store/static/js/main.9f7a1ed9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.855e9364.css",
+    "static/js/main.9f7a1ed9.js"
+  ]
+}
