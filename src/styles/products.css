@@ -210,3 +210,11 @@
     justify-content: center;
   }
 }
+@media (max-width: 678px) {
+  .info--bar {
+    justify-content: center;
+  }
+  .prodocts_item--hover {
+    display: flex !important;
+  }
+}

@@ -50,9 +50,22 @@ const App = () => {
                 <strong>Funiro.</strong>
               </div>
               <div className="header__navigation">
-                <div className="header__navigation--products">products</div>
-                <div className="header__navigation--rooms">rooms</div>
-                <div className="header__navigation--inspirations">
+                <div
+                  className="header__navigation--products"
+                  style={{ cursor: 'pointer' }}
+                >
+                  products
+                </div>
+                <div
+                  className="header__navigation--rooms"
+                  style={{ cursor: 'pointer' }}
+                >
+                  rooms
+                </div>
+                <div
+                  className="header__navigation--inspirations"
+                  style={{ cursor: 'pointer' }}
+                >
                   inspirations
                 </div>
               </div>
