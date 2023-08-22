@@ -1,0 +1,65 @@
+.tipsTrick {
+  margin-bottom: 85px;
+}
+.tipsTrick .container {
+  position: relative;
+}
+
+.tipsTrick_slider {
+  margin-top: 2.75rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+  row-gap: 32px;
+  overflow: hidden;
+  position: relative;
+}
+
+.slider__list {
+  display: flex;
+  width: 100%;
+  column-gap: 20px;
+  transition: 1s;
+}
+.slider__list img {
+  width: 100%;
+}
+
+.slider__list--button-left {
+  display: flex;
+  position: absolute;
+  top: 50%;
+  left: -2%;
+  transform: translate(-50% -50%);
+  z-index: 100;
+}
+.slider__list--button-right {
+  display: flex;
+  position: absolute;
+  top: 50%;
+  right: -2%;
+  transform: translate(-50% -50%);
+  z-index: 100;
+  rotate: 180deg;
+  color: red;
+}
+.slider__list--item {
+  display: flex;
+  flex: 0 0 33%;
+  flex-direction: column;
+}
+.slider__list--item.current {
+  background-color: white;
+  box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.1);
+}
+.slider__list--item-text {
+  margin: 1rem 6rem 2.8125rem 1rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.5rem;
+}
+.slider__button {
+  height: 20px;
+}

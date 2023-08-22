@@ -1,0 +1,41 @@
+.footer {
+  margin-top: 87px;
+  border-top: 1px solid gray;
+  height: 316px;
+  width: 100%;
+}
+.footer_text {
+  width: 100%;
+  display: flex;
+  column-gap: 80px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.footer__about {
+  margin-top: 80px;
+
+  flex: 0 0 12%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.footer__about input {
+  width: 242px;
+  height: 45px;
+  border: 0;
+  background-color: #fcf8f3;
+}
+.lint_tg {
+  width: 45px;
+  height: 45px;
+  background-color: #e89f71;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer_input {
+  display: flex;
+  column-gap: 4px;
+}

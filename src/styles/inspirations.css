@@ -1,0 +1,106 @@
+.inspirations {
+  margin-top: 2.75rem;
+  min-height: 670px;
+  background-color: #fcf8f3;
+  overflow: hidden;
+}
+.inspirations .container {
+  min-height: 670px;
+  display: flex;
+  align-items: center;
+}
+.inspirations__content {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  column-gap: 1.5rem;
+  height: 100%;
+  row-gap: 1.5rem;
+  position: relative;
+}
+
+.inspirations--text {
+  display: flex;
+  flex: 0 0 30%;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+  row-gap: 0.5rem;
+}
+.inspirations--inner {
+  display: flex;
+  flex: 0 0 30%;
+  position: relative;
+  z-index: 10;
+}
+.inspirations--slider {
+  display: flex;
+  flex: 0 0 30%;
+  flex-direction: column;
+  row-gap: 40px;
+  max-width: 500px;
+}
+.button-classick {
+  border: 0;
+  min-height: 3rem;
+  min-width: 11rem;
+  background-color: #e89f71;
+  color: white;
+  cursor: pointer;
+}
+.inspirations__content .button-classick {
+  margin-top: 1rem;
+}
+.button-classick:hover {
+  background-color: white;
+  color: #e89f71;
+  border: 1px solid #e89f71;
+}
+.inspirations--slider img {
+  height: 486px;
+  width: 372px;
+}
+.inspirations--slider__images {
+  display: flex;
+  overflow: hidden;
+  overflow: hidden;
+  column-gap: 1.5rem;
+  transform: translateX(-0%);
+  transition: 1s;
+}
+.inspirations--slider > img {
+  width: 48px;
+  height: 48px;
+  position: absolute;
+  bottom: 50%;
+  right: 73.888%;
+}
+.button-arrow {
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  background-color: #e89f71;
+  right: -48px;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+@media (max-width: 870px) {
+  .inspirations__content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .inspirations--slider {
+    display: flex;
+    width: 250px;
+    margin-bottom: 1rem;
+  }
+  .inspirations--inner > img {
+    width: 100%;
+  }
+}

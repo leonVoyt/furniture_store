@@ -1,0 +1,131 @@
+@import url('./fonts.css');
+@import url('./about.css');
+@import url('./products.css');
+@import url('./inspirations.css');
+@import url('./tipsTrick.css');
+@import url('./share.css');
+@import url('./footer.css');
+
+:root {
+  --form-control-color: #e89f71;
+}
+* {
+  font-family: Gilroy;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+  /* border: 1px solid red; */
+}
+button {
+  font-weight: 600;
+}
+h1 {
+  font-weight: 800;
+  font-size: 56px;
+}
+h2 {
+  font-weight: 800;
+  font-size: 40px;
+}
+h3 {
+  font-weight: 800;
+  font-size: 32px;
+}
+
+h4 {
+  font-weight: 600;
+  font-size: 28px;
+}
+h5 {
+  font-weight: 600;
+  font-size: 24px;
+}
+
+h6 {
+  font-weight: 600;
+  font-size: 20px;
+}
+p {
+  font-weight: 600;
+}
+body,
+html,
+#root {
+  min-height: 100vh;
+}
+.wrapper {
+  min-height: 100vh;
+}
+
+.about {
+  height: 774px;
+  display: block;
+  background-color: #fcf8f3;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  /* flex-wrap: wrap; */
+}
+
+.container {
+  width: calc(100% - 200px);
+  margin: 0 auto;
+}
+.circle--btn--right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background-color: #e89f71;
+  /* border: 1px solid #E89F71; */
+  border: 0;
+  cursor: pointer;
+  box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.5);
+}
+.circle--btn--left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background-color: rgba(232, 159, 113, 0.3);
+
+  /* border: 1px solid #E89F71; */
+  border: 0;
+  cursor: pointer;
+  box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.5);
+}
+.circle--btn--right:hover,
+.circle--btn--left:hover {
+  transform: scale(1.2);
+}
+
+.circle--btn--right img,
+.circle--btn--left img {
+  height: 14px;
+  width: 7px;
+}
+.circle--btn--right.disabled,
+.circle--btn--left.disabled {
+  cursor: copy;
+  pointer-events: none;
+  background-color: gray;
+}
+
+@media (max-width: 786px) {
+  .container {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 420px) {
+  .container {
+    width: 90%;
+    margin: auto;
+  }
+}
