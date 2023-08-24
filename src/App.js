@@ -70,7 +70,9 @@ const App = () => {
                 </div>
               </div>
               <div className="header__input">
-                <img src={search} alt="" className="header__input--search" />
+                <div className="header__input--img">
+                  <img src={search} alt="" className="header__input--search" />
+                </div>
                 <input
                   type="text"
                   placeholder="            Search for minimalist chair"
