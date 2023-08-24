@@ -75,7 +75,7 @@ const App = () => {
                 </div>
                 <input
                   type="text"
-                  placeholder="            Search for minimalist chair"
+                  placeholder="Search for minimalist chair"
                 ></input>
               </div>
               <div className="header_interface">
